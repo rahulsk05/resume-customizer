@@ -1,0 +1,96 @@
+# =========================================================
+# OS / Editor
+# =========================================================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+.vscode/
+.idea/
+
+
+# =========================================================
+# Environment Variables / Secrets
+# =========================================================
+
+# Backend
+backend/.env
+backend/.env.*
+
+# Frontend
+frontend/.env
+frontend/.env.*
+
+# Keep example environment files
+!backend/.env.example
+!frontend/.env.example
+
+
+# =========================================================
+# Python / Backend
+# =========================================================
+
+# Virtual environment
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checking / linting caches
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+
+# =========================================================
+# Node.js / Frontend
+# =========================================================
+
+# Dependencies
+frontend/node_modules/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Vercel
+frontend/.vercel/
+
+# Testing / coverage
+frontend/coverage/
+
+
+# =========================================================
+# Logs
+# =========================================================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =========================================================
+# Temporary files
+# =========================================================
+
+*.tmp
+*.temp
