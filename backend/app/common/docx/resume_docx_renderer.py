@@ -270,9 +270,17 @@ class ResumeDocxRenderer:
                 run.font.size = Pt(ResumeDocxStyles.BODY_SIZE)
 
             if project.technologies:
-                self._add_bullets(document, project.technologies)
+                paragraph = document.add_paragraph()
+                paragraph.paragraph_format.space_after = Pt(3)
 
-            self._add_bullets(document, project.details)
+                run = paragraph.add_run(
+                    f"Technologies: {', '.join(project.technologies)}"
+                )
+                run.font.name = ResumeDocxStyles.FONT_NAME
+                run.font.size = Pt(ResumeDocxStyles.METADATA_SIZE)
+
+            if project.details:
+                self._add_bullets(document, project.details)
 
             if project.url:
                 paragraph = document.add_paragraph()
