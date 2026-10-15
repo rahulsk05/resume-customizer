@@ -5,6 +5,7 @@
   --rt-primary: #286b4a;
   --rt-primary-hover: #20563b;
   --rt-primary-light: #dcebdd;
+  --rt-brand: #35b879;
 
   --rt-background: #f7f5ef;
   --rt-surface: #fffefa;
@@ -36,6 +37,7 @@
   --color-primary: var(--rt-primary);
   --color-primary-hover: var(--rt-primary-hover);
   --color-primary-light: var(--rt-primary-light);
+  --color-brand: var(--rt-brand);
 
   --color-background: var(--rt-background);
   --color-surface: var(--rt-surface);

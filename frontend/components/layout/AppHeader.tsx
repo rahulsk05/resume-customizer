@@ -52,7 +52,7 @@ export default function AppHeader() {
             {/* ResumeTailor mark */}
             <svg
               viewBox="0 0 48 48"
-              className="h-9 w-9 text-primary-light"
+              className="h-9 w-9 text-brand"
               fill="none"
               aria-hidden="true"
             >
@@ -69,7 +69,7 @@ export default function AppHeader() {
             </svg>
 
             <span className="text-2xl font-bold tracking-tight text-white">
-              Resume<span className="text-primary-light">Tailor</span>
+              Resume<span className="text-brand">Tailor</span>
             </span>
           </div>
 

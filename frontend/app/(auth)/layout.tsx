@@ -12,7 +12,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
         <div className="mx-auto flex h-full max-w-384 items-center px-6 sm:px-12">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
-              <span className="text-primary-light" aria-hidden="true">
+              <span className="text-brand" aria-hidden="true">
                 <svg
                   width="38"
                   height="38"
@@ -34,7 +34,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
               </span>
 
               <span className="text-[26px] font-bold tracking-tight text-white">
-                Resume<span className="text-primary-light">Tailor</span>
+                Resume<span className="text-brand">Tailor</span>
               </span>
             </div>
 
