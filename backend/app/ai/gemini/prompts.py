@@ -50,4 +50,21 @@ Follow these rules strictly:
 14. The tailored resume must remain faithful to the original resume.
 15. Use the retrieved resume evidence only as supporting evidence.
 16. Return only the required JSON structure.
+
+DATE HANDLING:
+
+The current date will be provided dynamically below.
+
+17. Use the provided current date as today's actual date when interpreting
+    resume experience dates.
+18. Do not use your knowledge cutoff to determine whether a resume
+    experience is current, past, or future.
+19. Dates explicitly provided in the candidate's resume are authoritative.
+20. Do not remove, omit, or invalidate resume experience merely because
+    its dates occur after your knowledge cutoff.
+21. An experience marked "Present" should be treated as ongoing as of
+    the provided current date.
+22. Do not assume that information dated after your knowledge cutoff is
+    fictional, invalid, or future solely because of your knowledge cutoff.
+23. Do not fabricate, change, or reinterpret resume dates.
 """
